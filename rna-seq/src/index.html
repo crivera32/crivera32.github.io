@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RNA-Sequencing over time</title>
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <!-- external scripts -->
+    <script src="../d3/d3.js" charset="utf-8"></script>
+    <script src="../d3/tsne.js"></script>
+    <script src="../d3/legend.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://d3js.org/d3-path.v2.min.js"></script>
+    <script src="https://d3js.org/d3-shape.v2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.5/d3.layout.cloud.js"></script>
+    <!-- Scripts -->
+    
+</head>
+<body>
+    
+    <h1 id='myTitle' class="head">RNA-Sequencing Over Time</h1>
+
+    <div id='selectGene' class="selection">
+        <strong class="font">Select a Gene: </strong><input id="ddlGenes">
+    </div>
+
+    <!-- 
+    <div id='selectCell' class="selection">
+        <strong class="font">Select a Cell: </strong><input id="ddlCells">
+    </div>
+    -->
+
+    <div id='heatmapLegend' class="legend">
+    </div>
+    <div class="demo" id="demo"></div>
+    <div class="cloud" id="cloud"></div>
+    <div id="plot1"></div>
+    <div id="plot2"></div>
+    <div id="plot3"></div>
+    <script src="otherplot.js"></script>
+    <script src="heatmap.js"></script>
+    <script src="index.js"></script>
+    <script src="main.js"></script>
+    <script src="cluster.js"></script>
+</body>
+</html>

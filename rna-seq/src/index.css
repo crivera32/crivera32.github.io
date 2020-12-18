@@ -1,0 +1,65 @@
+.head{
+    text-align: center;
+    color: #f05454;
+}
+
+#plot1{
+    display: inline;
+    margin-top: 5%;
+}
+
+#plot2{
+    display: inline;
+    margin-top: 5%;
+}
+
+#plot3{
+    display: inline;
+    margin-top: 10%;
+}
+
+.font{
+    font-size: large;
+}
+
+.selection{
+    margin-left: 40%;
+    margin-top:5%;
+}
+
+/* #ddlGenes{
+    display: ;
+} */
+
+/* .demo{
+}
+
+.cloud{
+} */
+
+.dot{
+    opacity: 1;
+}
+
+.brushed{
+    opacity: 1;
+}
+
+.tooltip{
+    text-align: center;			
+    width: 130px;					
+    height: 50px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: black;
+    color:white;
+    border: 1px solid white;		
+    border-radius: 8px;			
+    pointer-events: none;
+}
+
+.legend{
+    position: absolute;
+    left: 680px;
+    top: -16px;
+}
